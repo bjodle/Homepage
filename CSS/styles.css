@@ -1,0 +1,299 @@
+
+
+.box{
+    height: 350px;
+    width: auto;
+}
+
+
+body {
+    max-width: 100%;
+    font-weight: 200;
+    background-color: #22223b;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 900;
+    color: #fff;
+    padding: 0 3%;
+}
+
+h3 {
+    font-weight: 650;
+    font-weight: 900;
+    padding-top: 10px;
+    color: #fff;
+}
+
+h4 {
+    font-weight: 650;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*navbar*/
+
+nav {
+    color: white;
+    font-family: "Exo 2";
+}
+
+.title {
+    background-color: #22223b;
+    color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+i {
+    color: #fff;
+}
+
+.p {
+    color: #8f8f8f;
+}
+
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: #932739;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+/*Intro*/
+
+.intro {
+    padding-bottom:10%;
+    padding: 0px -12px;
+    align-content: center;
+}
+
+.name {
+    margin-top: 4%;
+    color: #fff;
+    font-family: "exo 2";
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+    color: #fff;
+    font-family: "Ububtu" 300;
+}
+
+.introPhoto {
+    align-content: center;
+    
+}
+
+
+
+/*Photos*/
+
+.gallery{
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.photo {
+    padding: 4% 0%;
+    align-content: center;
+    background-color: #4a4e69;
+    width: 100%;
+}
+
+.photoCarousel {
+    width: 40%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.photoText {
+    text-align: center;
+    font-family: "ubuntu",300;
+    color: #fff;
+}
+
+.carouselExampleIndicators {
+    margin-top: 400px;
+    background-color: #4a4e69;
+    width: 1000px;
+    align-content: center;
+}
+
+
+
+
+/*Experience*/
+
+.experience{
+    padding: 8% 0 8% 0;
+    background-color: #4a4e69;
+    text-align: center;
+}
+
+.experienceTitle{
+    padding-bottom: 5%;
+}
+
+.icons-work {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.icon-work-title {
+    padding-bottom: 4%;
+}
+
+.chair {
+    text-align: center;
+}
+
+.church {
+    text-align: center;
+}
+
+
+/*Games*/
+
+.games{
+    padding: 10% 0%;
+}
+
+.gamesTitle{
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+.icons-games {
+    color: #fff;
+    text-align: center;
+    padding: 0 12% 10px 12%;
+}
+
+.chair {
+    text-align: center;
+}
+
+/*Scroll*/
+
+.scrollPhoto{
+    margin-top: -8%;
+    position: absolute;
+}
+
+.scrollWork{
+    margin-top: -17%;
+    position: absolute;
+}
+
+.scrollSchool{
+    margin-top: -21%;
+    position: absolute;
+}
+
+.scrollGames{
+    margin-top: -15%;
+    position: absolute;
+}
+
+
+/*School*/
+
+.school {
+    align-content: center;
+    background-color: #22223b;
+    text-align: center;
+    padding: 10% 0;
+}
+
+.schoolTitle{
+    padding-bottom: 5%;
+}
+
+.school-text {
+    color: #fff;
+}
+
+
+
+/*Footer*/
+
+footer {
+
+    @media (min-width: 1880px) {
+        margin: 0 0;
+    }
+
+    width: 100%;
+    background-color: #4a4e69;
+    text-align: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-family: "Exo 2";
+}
+
+.footerText{
+    margin-bottom: 1cm;
+}
+
+.footerIcon{
+    padding: 0 -12px;
+}
